@@ -6,8 +6,6 @@ import TicTacToe from '../images/TicTacToe.png';
 import { useSpring, animated } from 'react-spring';
 
 
-
-
 export default function Projects(){
 
 	const calc = (x, y) => [                        // I got this code from https://antonzaharia.com/
@@ -59,7 +57,7 @@ export default function Projects(){
 							<animated.div
 								onMouseMove={({ clientX: x, clientY: y }) => setProps1({ xys: calc(x, y) })}
 								onMouseLeave={() => setProps1({ xys: [0, 0, 1] }) }
-								style={{transform: props1.xys.interpolate(trans)}}
+								style={{transform: props1.xys.to(trans)}}
 							>
 								<Card className="card-width h-100 p-1">
 								  <a href="https://gandor999.github.io/static-responsive-webstie/" target="_blank"><Card.Img variant="top" src={responsiveWeb} />
@@ -81,7 +79,7 @@ export default function Projects(){
 							<animated.div
 								onMouseMove={({ clientX: x, clientY: y }) => setProps2({ xys: calc(x, y) })}
 								onMouseLeave={() => setProps2({ xys: [0, 0, 1] }) }
-								style={{transform: props2.xys.interpolate(trans)}} 
+								style={{transform: props2.xys.to(trans)}} 
 							>
 								<Card className="card-width h-100 p-1">
 								  <a href="https://github.com/gandor999/eCommerce-API/tree/master" target="_blank">
@@ -105,7 +103,7 @@ export default function Projects(){
 							<animated.div
 								onMouseMove={({ clientX: x, clientY: y }) => setProps3({ xys: calc(x, y) })}
 								onMouseLeave={() => setProps3({ xys: [0, 0, 1] }) }
-								style={{transform: props3.xys.interpolate(trans)}} 
+								style={{transform: props3.xys.to(trans)}} 
 							>
 								<Card className="card-width h-100 p-1">
 								  <a href="https://ecommerce-client-chi.vercel.app/" target="_blank">
@@ -131,7 +129,7 @@ export default function Projects(){
 							<animated.div
 								onMouseMove={({ clientX: x, clientY: y }) => setProps4({ xys: calc(x, y) })}
 								onMouseLeave={() => setProps4({ xys: [0, 0, 1] }) }
-								style={{transform: props4.xys.interpolate(trans)}} 
+								style={{transform: props4.xys.to(trans)}} 
 							>
 								<Card className="card-width h-100 p-1">
 								  <a href="https://tic-tac-toe-ten-beryl.vercel.app/" target="_blank">	
