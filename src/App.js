@@ -1,19 +1,8 @@
 import './App.css';
-import { Menu } from 'antd';
-import { 
-  MailOutlined, 
-  AppstoreOutlined, 
-  SettingOutlined, 
-  HomeOutlined, 
-  QuestionOutlined, 
-  AlertOutlined  
-} from '@ant-design/icons';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects'
 import NavBar from './components/NavBar';
-import { Container } from 'react-bootstrap';
-
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { useTransition, animated, useSpring } from 'react-spring'
 
