@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.routes {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.page-cloud-bg {
+  background-image: url("./images/clouds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.page-water-bg {
+  background-image: url("./images/night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  margin-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.page-coconut-bg {
+ 
+  background-size: cover;
+  background-color: #353535;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  margin-top: 2rem;
+}
+
+/*.about-header {
+  padding-bottom: 110px;
+}*/
+
+
+/*.hello {
+  padding-bottom: 70px;
+}*/
+
+.menu {
+  position: sticky;
+  top: 0;
+}
+
+
+.font-link {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#welcome-wrapper {
+  background-color: #EDAE49;
+  padding-top: 0.46rem;
+  /*width: 60vw;*/
+  width: 13em;
+}
+
+.projects-header-wrapper {
+  background-color: #C38D94;
+  
+  width: 9rem;
+
+}
+
+.projects-header-wrapper h1 {
+  color: #353535;
+}
+
+
+.card-width {
+  max-width: 35rem;
+}
+
+img {
+  cursor: pointer;
+}
+
+
+/* Galaxy Fold */
+@media (min-width: 280px){  
+  .home-text {
+    font-size: 14px;
+    font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav-text {
+    font-size: .7em;
+  }
+} @media (max-width: 600px){  
+  .about-section-level {
+    font-size: 9px;
   }
 }
+
+
+
+/* iPad */
+@media (min-width: 768px){  
+  .home-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .nav-text {
+    font-size: 1em;
+  }
+
+  #welcome-wrapper {
+    background-color: #EDAE49;
+    padding-top: 0.46rem;
+    /*width: 60vw;*/
+    width: 19rem;
+  }
+
+  .projects-header-wrapper {
+    width: 11rem;
+
+  }
+
+}
+
+
+/* iPad Pro */
+@media (min-width: 1024px){  
+  .home-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .nav-text {
+    font-size: 1em;
+  }
+
+  #welcome-wrapper {
+    background-color: #EDAE49;
+    padding-top: 0.46rem;
+    /*width: 60vw;*/
+    width: 19rem;
+  }
+
+  .projects-header-wrapper {
+    width: 12rem;
+
+  }
+}
+
+
+
+/**/
+
+
+/* Laptop 1440 */
+@media (min-width: 1440px){  
+  .home-text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nav-text {
+    font-size: 1em;
+  }
+
+  #welcome-wrapper {
+    background-color: #EDAE49;
+    padding-top: 0.46rem;
+    /*width: 60vw;*/
+    width: 20rem;
+  }
+
+
+}
+
+
