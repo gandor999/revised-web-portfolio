@@ -1,6 +1,8 @@
 import { useSpring, animated } from 'react-spring';
 
-export default function About(){
+export default function About({ preload }){
+
+	console.log(preload);
 
 	const slideInRight = useSpring({
 	  from: { opacity: 0, scale: 0, x: 1000 },

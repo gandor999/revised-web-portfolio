@@ -6,7 +6,9 @@ import TicTacToe from '../images/TicTacToe.png';
 import { useSpring, animated } from 'react-spring';
 
 
-export default function Projects(){
+export default function Projects({ preload }){
+
+	console.log(preload)
 
 	const calc = (x, y) => [                        // I got this code from https://antonzaharia.com/
 	  (y - window.innerHeight /2) / 100,

@@ -6,7 +6,7 @@ import NavBar from './components/NavBar';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { useTransition, animated, useSpring } from 'react-spring'
 
-function App() {
+function App({ preload }) {
 
   const location = useLocation()
 
@@ -26,8 +26,8 @@ function App() {
             <Routes location={item}>
               <Route path="/" exact element={<Home />} />
               <Route path="/personal-web-portfolio/" element={<Home />} />
-              <Route path="/personal-web-portfolio/aboutme" element={<About />} />
-              <Route path="/personal-web-portfolio/projects" element={<Projects />} />
+              <Route path="/personal-web-portfolio/aboutme" element={<About preload={preload} />} />
+              <Route path="/personal-web-portfolio/projects" element={<Projects preload={preload} />} />
             </Routes>
           </animated.div>
         ))
