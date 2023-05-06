@@ -20,8 +20,8 @@
   margin-top: 2rem;
 }
 
-.page-water-bg {
-  background-image: url("./images/night.jpg");
+.page-about-bg {
+  background-image: url("./images/workspace.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -31,7 +31,6 @@
 }
 
 .page-coconut-bg {
- 
   background-size: cover;
   background-color: #353535;
   background-attachment: fixed;
@@ -44,7 +43,6 @@
   padding-bottom: 110px;
 }*/
 
-
 /*.hello {
   padding-bottom: 70px;
 }*/
@@ -54,30 +52,30 @@
   top: 0;
 }
 
-
 .font-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
+#big-ass-name {
+  margin-left: 1rem;
+}
 
 #welcome-wrapper {
-  background-color: #EDAE49;
+  background-color: #edae49;
   padding-top: 0.46rem;
   /*width: 60vw;*/
   width: 13em;
 }
 
 .projects-header-wrapper {
-  background-color: #C38D94;
-  
-  width: 9rem;
+  background-color: #c38d94;
 
+  width: 9rem;
 }
 
 .projects-header-wrapper h1 {
   color: #353535;
 }
-
 
 .card-width {
   max-width: 35rem;
@@ -87,27 +85,25 @@ img {
   cursor: pointer;
 }
 
-
 /* Galaxy Fold */
-@media (min-width: 280px){  
+@media (min-width: 280px) {
   .home-text {
     font-size: 14px;
     font-weight: bold;
   }
 
   .nav-text {
-    font-size: .7em;
+    font-size: 0.7em;
   }
-} @media (max-width: 600px){  
+}
+@media (max-width: 600px) {
   .about-section-level {
     font-size: 9px;
   }
 }
 
-
-
 /* iPad */
-@media (min-width: 768px){  
+@media (min-width: 768px) {
   .home-text {
     font-size: 16px;
     font-weight: bold;
@@ -118,7 +114,7 @@ img {
   }
 
   #welcome-wrapper {
-    background-color: #EDAE49;
+    background-color: #edae49;
     padding-top: 0.46rem;
     /*width: 60vw;*/
     width: 19rem;
@@ -126,14 +122,11 @@ img {
 
   .projects-header-wrapper {
     width: 11rem;
-
   }
-
 }
 
-
 /* iPad Pro */
-@media (min-width: 1024px){  
+@media (min-width: 1024px) {
   .home-text {
     font-size: 18px;
     font-weight: bold;
@@ -144,7 +137,7 @@ img {
   }
 
   #welcome-wrapper {
-    background-color: #EDAE49;
+    background-color: #edae49;
     padding-top: 0.46rem;
     /*width: 60vw;*/
     width: 19rem;
@@ -152,17 +145,13 @@ img {
 
   .projects-header-wrapper {
     width: 12rem;
-
   }
 }
 
-
-
 /**/
 
-
 /* Laptop 1440 */
-@media (min-width: 1440px){  
+@media (min-width: 1440px) {
   .home-text {
     font-size: 20px;
     font-weight: bold;
@@ -173,13 +162,9 @@ img {
   }
 
   #welcome-wrapper {
-    background-color: #EDAE49;
+    background-color: #edae49;
     padding-top: 0.46rem;
     /*width: 60vw;*/
     width: 20rem;
   }
-
-
 }
-
-

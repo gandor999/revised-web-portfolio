@@ -24,7 +24,7 @@ export default function Home() {
             </h1>
           </div>
           <div id="" className="pt-4">
-            <p className="home-text">To Geodor's web portfolio</p>
+            <p className="home-text">To Geo's web portfolio</p>
           </div>
         </animated.section>
 
