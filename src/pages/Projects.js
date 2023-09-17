@@ -3,6 +3,8 @@ import responsiveWeb from '../images/responsiveWeb.png'
 import eCommerceAPI from '../images/eCommerceAPI.png'
 import eCommerceReact from '../images/eCommerceReact.png'
 import TicTacToe from '../images/TicTacToe.png'
+import bouncingBallsGif from '../images/bouncing-balls.gif'
+import bulawanSrcCodePng from '../images/bulawan-source-code.png'
 import { useSpring, animated } from 'react-spring'
 
 const projects = [
@@ -17,7 +19,7 @@ const projects = [
     title: 'eCommerce API',
     imgSource: eCommerceAPI,
     linkToProject: 'https://github.com/gandor999/eCommerce-API/tree/master',
-    buttonText: 'Read the code',
+    buttonText: 'Read the code!',
     shortDescription:
       'This API was made using Node, Express, and Mongoose. The database used was MongoDB Atlas so this is a NoSql DB.',
   },
@@ -37,14 +39,22 @@ const projects = [
     shortDescription:
       'This is a tic tac toe game made with React. I made this game unaware that there was react had a similar tutorial on their website. So the code may be a entirely different.',
   },
-  // {
-  //   title: 'Bulawan',
-  //   imgSource: TicTacToe,
-  //   linkToProject: 'https://tic-tac-toe-ten-beryl.vercel.app/',
-  //   buttonText: 'Play!',
-  //   shortDescription:
-  //     'Right now this project is in an early stage of experimentation with canvas js. Not sure on what to do with this after but I was thinking of making a game with this in the future.',
-  // }
+  {
+    title: 'Bulawan',
+    imgSource: bouncingBallsGif,
+    linkToProject: 'https://gandor999.github.io/canvas-game/',
+    buttonText: 'Play!',
+    shortDescription:
+      'Right now this project is in an early stage of experimentation with canvas js. Not sure on what to do with this after but I was thinking of making a game with this in the future.',
+  },
+  {
+    title: 'Bulawan - Source Code',
+    imgSource: bulawanSrcCodePng,
+    linkToProject: 'https://github.com/gandor999/canvas-game',
+    buttonText: 'Read the code!',
+    shortDescription:
+      'This is the source code for project Bulawan',
+  },
 ]
 
 function ProjectCard({ title, linkToProject, buttonText, shortDescription, imgSource }) {
