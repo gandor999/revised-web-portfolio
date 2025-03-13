@@ -6,6 +6,7 @@ import TicTacToe from '../images/TicTacToe.png'
 import bouncingBallsGif from '../images/bouncing-balls.gif'
 import bulawanSrcCodePng from '../images/bulawan-source-code.png'
 import { useSpring, animated } from 'react-spring'
+import rualesPosLanding from '../images/ruales_pos_landing.png'
 
 const projects = [
   {
@@ -14,6 +15,14 @@ const projects = [
     linkToProject: 'https://gandor999.github.io/static-responsive-webstie/',
     buttonText: 'Take a look!',
     shortDescription: 'This is the first website project I made with Bootstrap, CSS, and HTML.',
+  },
+  {
+    title: 'Ruales POS',
+    imgSource: rualesPosLanding,
+    linkToProject: 'https://github.com/gandor999/sanjose_barcode_scanner_4',
+    buttonText: 'Read the code!',
+    shortDescription:
+      'The latest project being worked on as of updating this website. A point of sale system, its primary use right now is to connect to a barcode scanner and scan the prices of items that are already in the database and total the items that are to be bought. It uses postgreql as the databse for the barcode to item table',
   },
   {
     title: 'eCommerce API',
@@ -37,7 +46,7 @@ const projects = [
     linkToProject: 'https://tic-tac-toe-ten-beryl.vercel.app/',
     buttonText: 'Play!',
     shortDescription:
-      'This is a tic tac toe game made with React. I made this game unaware that there was react had a similar tutorial on their website. So the code may be a entirely different.',
+      'This is a tic tac toe game made with React. I made this game unaware that there was a similar tutorial on their website. So the code may be a entirely different.',
   },
   {
     title: 'Bulawan',
@@ -46,14 +55,6 @@ const projects = [
     buttonText: 'Play!',
     shortDescription:
       'Right now this project is in an early stage of experimentation with canvas js. Not sure on what to do with this after but I was thinking of making a game with this in the future.',
-  },
-  {
-    title: 'Bulawan - Source Code',
-    imgSource: bulawanSrcCodePng,
-    linkToProject: 'https://github.com/gandor999/canvas-game',
-    buttonText: 'Read the code!',
-    shortDescription:
-      'This is the source code for project Bulawan',
   },
 ]
 
